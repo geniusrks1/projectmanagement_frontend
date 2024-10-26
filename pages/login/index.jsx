@@ -83,7 +83,7 @@ export default function Register() {
           <div className={styles.circleWrapper}>
             <div className={styles.circle}></div>
             <img
-              src="../../src/assets/Group.png"
+              src="/assets/Group.png"
               alt="Logo"
               className={styles.logo}
             />

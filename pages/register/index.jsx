@@ -42,7 +42,7 @@ export default function Register() {
         <div className={styles.leftcontainer}>
           <div className={styles.circleWrapper}>
             <div className={styles.circle}></div>
-            <img src="../../src/assets/Group.png" alt="Logo" className={styles.logo} />
+            <img src="/assets/Group.png" alt="Logo" className={styles.logo} />
           </div>
           <h1>Welcome aboard my friend</h1>
           <p>Just a couple of clicks and we start</p>
