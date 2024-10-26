@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.register {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.leftcontainer {
+  flex: 60;
+  background-color: #17A2B8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.circleWrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #317F8B;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 150px;
+    position: relative;
+    z-index: 2;
+    top: 20%;
+    left: 0%;
+  } 
+  
+
+.rightcontainer {
+  flex: 40;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  height: 100%; 
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+  }
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.inputGroup svg {
+  padding: 10px;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  color: #d0d0d0;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.eyeIcon {
+  cursor: pointer;
+  background-color: #fff;
+  color: #d0d0d0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #17A2B8;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.loginLink {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 15px;
+ color: #17A2B8;
+  transition: background-color 0.3s;
+}
+
+.loginLink a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #357ab8;
+}
+
+.loginLink:hover {
+  background-color: #e6e6e6;
+}
+
+.button3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.text{
+    color: #828282;
+
+}
