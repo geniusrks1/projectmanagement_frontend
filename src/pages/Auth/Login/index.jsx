@@ -43,7 +43,7 @@ export default function Login() {
 
   const onSubmit = async (data) => {
     try {
-      console.log(import.meta.env.VITE_BACKEND_URL);
+      console.log("vite backend url",import.meta.env.VITE_BACKEND_URL);
       const res = await fetch(
         import.meta.env.VITE_BACKEND_URL + '/api/v1/users/login',
         {
